@@ -1,4 +1,3 @@
-<!--
 SORT - TS
 This app will sort numbers, characters, linked list
 Packages Used
@@ -8,7 +7,7 @@ To Execute this app
 Package.json Scripts - write the following script
 "scripts": {
 "start:build": "tsc -w",
- "start:run": "nodemon build/index.js",
+"start:run": "nodemon build/index.js",
 "start": "concurrently npm:start:\*"
 },
 
@@ -23,4 +22,4 @@ index.ts // instantiates child classes (bottom 3) w/ num, sorts them appropriate
 Sorter.ts // abstract parent class -> give sorting method to children classes (3 below)
 CharactersCollection.ts // child class, characters, can give length, compare, and swap methods
 NumbersCollection.ts // child class, numbers, can give length, compare, and swap methods
-LinkedList.ts // child class, linked list, can give length, compare, and swap methods -->
+LinkedList.ts // child class, linked list, can give length, compare, and swap methods
