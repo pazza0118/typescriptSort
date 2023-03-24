@@ -1,9 +1,20 @@
-SORT - TS
+# Typescript Basic Sorting
+
 This app will sort numbers, characters, linked list
-Packages Used
+
+## Table of contents
+
+- [Packages Used](#packages-used)
+- [To Execute this app](#to-execute-this-app)
+- [Folder Structure](#folder-structure)
+
+## Packages Used
+
 nodemon
 concurrently
-To Execute this app
+
+## To Execute this app
+
 Package.json Scripts - write the following script
 "scripts": {
 "start:build": "tsc -w",
@@ -13,7 +24,8 @@ Package.json Scripts - write the following script
 
 On git bash: npm start -> runs every npm start:pattern scripts // no space between start, :, and pattern
 
-Folder Structure
+## Folder Structure
+
 Sort (Root Directory)
 build // all compiled files will go here
 the below 5 files but in js
