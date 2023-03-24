@@ -27,11 +27,12 @@ On git bash: npm start -> runs every npm start:pattern scripts // no space betwe
 ## Folder Structure
 
 Sort (Root Directory)
-build // all compiled files will go here
-the below 5 files but in js
-src
-index.ts // instantiates child classes (bottom 3) w/ num, sorts them appropriately
-Sorter.ts // abstract parent class -> give sorting method to children classes (3 below)
-CharactersCollection.ts // child class, characters, can give length, compare, and swap methods
-NumbersCollection.ts // child class, numbers, can give length, compare, and swap methods
-LinkedList.ts // child class, linked list, can give length, compare, and swap methods
+
+- build // all compiled files will go here
+  - the below 5 files but in js
+- src
+  - index.ts // instantiates child classes (bottom 3) w/ num, sorts them appropriately
+  - Sorter.ts // abstract parent class -> give sorting method to children classes (3 below)
+  - CharactersCollection.ts // child class, characters, can give length, compare, and swap methods
+  - NumbersCollection.ts // child class, numbers, can give length, compare, and swap methods
+  - LinkedList.ts // child class, linked list, can give length, compare, and swap methods
